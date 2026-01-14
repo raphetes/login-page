@@ -1,0 +1,60 @@
+.labelWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+label {
+  display: flex;
+  justify-content: space-between;
+  color: var(--gray-8);
+  font-size: 1.8rem;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+  margin-bottom: 1.2rem;
+}
+input {
+  width: 50rem;
+  padding: 1.8rem 1.2rem;
+  font-size: 1.8rem;
+  border-radius: 6px;
+  color: var(--gray-8);
+  border: 2px solid var(--gray-2);
+  outline: none;
+  transition: 0.2s;
+}
+input:hover,
+input:focus {
+  border: 2px solid var(--purple);
+}
+.forgot {
+  color: var(--purple);
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+.forgot:hover {
+  text-decoration: underline;
+}
+.inputBox {
+  display: flex;
+  position: relative;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+.inputBox .password {
+  margin: 0;
+}
+.inputBox button {
+  position: absolute;
+  padding: .6rem 1rem;
+  right: 15px;
+  border: none;
+  cursor: pointer;
+}
+.error {
+  position: absolute;
+  bottom: -25px;
+  color: #f00;
+}
+.inputError {
+  border: 1px solid #f00;
+}

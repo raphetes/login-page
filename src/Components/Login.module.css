@@ -1,0 +1,36 @@
+.wrapper {
+	height: 100vh;
+	display: grid;
+	margin: 6rem 0;
+}
+.login {
+	margin-bottom: 14rem;
+}
+.createWrapper {
+	margin-top: 1.4rem;
+	font-size: 1.7rem;
+}
+.createWrapper p {
+	color: var(--gray-6);
+}
+.create {
+	color: var(--purple);
+	font-weight: bold;
+	cursor: pointer;
+	text-decoration: none;
+	margin-left: .8rem;
+}
+.create:hover {
+	text-decoration: underline;
+}
+@media (max-width: 1366px) {
+	.wrapper {
+		margin: 2rem 0;
+	}
+	.title {
+		font-size: 3.6rem;
+	}
+	.description {
+		font-size: 2rem;
+	}
+}

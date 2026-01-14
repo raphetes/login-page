@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --white: #fff;
+  --purple: #7c3aed;
+  --gray-2: #9AA6B7;
+  --gray-4: #94a3b8;
+  --gray-6: #475569;
+  --gray-8: #1e293b;
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  font-family: "Titillium Web";
+  overflow: hidden;
+}
+.App {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 100vh;
+  position: relative;
+  align-items: center;
+  justify-items: center;
+}
+.App::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background: 
+    linear-gradient(rgba(153, 95, 253, 1), rgba(153, 95, 253, 1)),
+    url("./assets/background.png") center/cover no-repeat;
+  background-blend-mode: screen;
+  z-index: 1;
+}

@@ -1,0 +1,25 @@
+.loginButton {
+  width: 100%;
+  padding: 2rem;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  background: var(--purple);
+  font-weight: bold;
+  color: var(--white);
+  font-size: 1.7rem;
+  letter-spacing: 0.8px;
+  font-family: "Titillium Web";
+  cursor: pointer;
+  transition: 0.2s;
+}
+.loginButton:hover {
+  box-shadow: 0 0 5px 3px var(--purple);
+  opacity: 0.93;
+}
+.loginButton:focus {
+  opacity: 0.93;
+  box-shadow: 0 0 0 2px var(--purple) inset,
+	inset 0 0 0 4px #fff,
+	0 0 5px 2px var(--purple);;
+}
